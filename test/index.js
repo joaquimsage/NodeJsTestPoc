@@ -19,6 +19,7 @@ describe('Bot Tests', function() {
       //var bot = testBot.create(connector);
 
       //common.testBot(bot, helpMessages, done);
+      done();
       assert.ok('Bot Builder is Missing');
   });
 
