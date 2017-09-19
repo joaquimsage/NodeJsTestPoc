@@ -18,13 +18,13 @@
   },
   "homepage": "https://github.com/CatalystCode/alarm-bot-unit-testing#readme",
   "dependencies": {
-    "botbuilder": "^3.4.4",
-    "nconf": "^0.8.4",
-    "restify": "^4.3.0"
+    "botbuilder": "3.4.4",
+    "nconf": "0.8.4",
+    "restify": "4.3.0"
   },
   "devDependencies": {
-    "assert": "^1.4.1",
-    "mocha": "^3.2.0",
-    "nock": "^9.0.2"
+    "assert": "1.4.1",
+    "mocha": "3.2.0",
+    "nock": "9.0.2"
   }
 }

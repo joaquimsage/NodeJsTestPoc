@@ -12,20 +12,16 @@ var setAlarmMessages2 = require('./dialog-flows/set-alarm2');
 luisMock.setup();
 
 //Our parent block
-describe('Bot Tests', function() {
+describe('Dummy tests', () => {
 
-  it('help', function (done) { 
-      var connector = new builder.ConsoleConnector();
-      var bot = testBot.create(connector);
-
-      common.testBot(bot, helpMessages, done);
-  });
-
-});
-
-describe('Hello World', function() {
-
-    it('Should print out Hello world', function() {
-        assert.equal('Hello World', 'Hello World');
+    it('Should locate position number 1 on base start at 0', function () {
+        assert.equal(1, [1, 2, 3].indexOf(2));
     });
+
+
+
+    it('Should locate position 3', function () {
+        assert.equal(Math.floor(Math.random()*(3-1+1)+1), [1, 2, 3].indexOf(3), 'Sometimes this assertion fails, maybe has sth to do with the Random number?!');
+    });
+
 });
