@@ -18,7 +18,7 @@ describe('Dummy tests', () => {
 
     it('Hello and Bye Words', function () {
         //assert.equal(Math.floor(Math.random()*(3-1+1)+1), [1, 2, 3].indexOf(3), 'Sometimes this assertion fails, maybe has sth to do with the Random number?!');
-        assert.equal('Bye', 'Bye', 'These words are not the same and they should be.');
+        assert.equal('Bye bye', 'Bye bye', 'These words are not the same and they should be.');
         assert.notEqual('Hello', 'Bye', 'Words should not be euqal...and they are mf!');
     });
 
