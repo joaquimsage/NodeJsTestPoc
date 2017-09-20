@@ -20,7 +20,7 @@ describe('Bot Tests', function() {
 
       //common.testBot(bot, helpMessages, done);
       done();
-      assert.ok('Bot Builder is Missing');
+      assert.ok('Bot Builder is Missing, still missing mf');
   });
 
 });
