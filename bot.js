@@ -95,7 +95,7 @@ function create(connector) {
       }
   ]);
 
-  dialog.onDefault(builder.DialogAction.send("I'm sorry I didn't understand. I can only create & delete alarms."));
+  dialog.onDefault(builder.DialogAction.send("I'm sorry I didn't understand. I am not able to create alarms anymore."));
 
   // Very simple alarm scheduler
   var alarms = {};
