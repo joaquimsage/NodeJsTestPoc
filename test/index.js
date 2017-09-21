@@ -27,5 +27,9 @@ describe('Hello World', function() {
 
     it('Should print out Hello world', function() {
         assert.equal('Hello World', 'Hello World');
+
+        assert.equal('This message is slightly different', 'This message is slightly different');
     });
+
+
 });
