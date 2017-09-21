@@ -12,7 +12,7 @@ var setAlarmMessages2 = require('./dialog-flows/set-alarm2');
 luisMock.setup();
 
 //Our parent block
-describe('Bot Tests', function() {
+describe('Alarm bot chat', function() {
 
   it('help', function (done) { 
       var connector = new builder.ConsoleConnector();
